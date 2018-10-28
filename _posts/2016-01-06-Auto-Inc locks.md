@@ -4,7 +4,7 @@ title:      Auto-Inc locks
 subtitle:   mysql 自增锁
 date:       2018-10-26
 author:     振航
-header-img: img/authinclock.png
+header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
     - mysql
