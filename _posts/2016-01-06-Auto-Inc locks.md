@@ -44,8 +44,9 @@ INSERT INTO oplog (id, log_id, field, field_desc, old_value, new_value) VALUES (
 #### 优点：
 它的设置可以达到性能与安全(主从的数据一致性)的平衡
 >比如 配置auto_increment参数的字段，mysql可以保证这个字段在多进程操作时的原子性。就是通过这个innodb_autoinc_lock_mode 的配置来控制保证的类型级别。
+
 #### 参数配置
-[](https://github.com/summaryNZH/Java/blob/master/baseinfo/img/authinclock.png)
+[](https://raw.githubusercontent.com/summaryNZH/Java/master/baseinfo/img/authinclock.png)
 
 
 
