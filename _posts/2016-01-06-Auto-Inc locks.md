@@ -39,14 +39,15 @@ INSERT INTO oplog (id, log_id, field, field_desc, old_value, new_value) VALUES (
 
 ## innodb_auto_inc_lock_mode 参数
 
-#### 介绍：
-用于插入时自增字段控制加锁的配置。
-#### 优点：
-它的设置可以达到性能与安全(主从的数据一致性)的平衡
->比如 配置auto_increment参数的字段，mysql可以保证这个字段在多进程操作时的原子性。就是通过这个innodb_autoinc_lock_mode 的配置来控制保证的类型级别。
+### 介绍：
+- 用于插入时自增字段控制加锁的配置。
 
-#### 参数配置
-[](https://raw.githubusercontent.com/summaryNZH/Java/master/baseinfo/img/authinclock.png)
+### 优点：
+- 它的设置可以达到性能与安全(主从的数据一致性)的平衡
+- 比如 配置auto_increment参数的字段，mysql可以保证这个字段在多进程操作时的原子性。就是通过这个innodb_autoinc_lock_mode 的配置来控制保证的类型级别。
+
+### 参数配置
+![](https://raw.githubusercontent.com/summaryNZH/Java/master/baseinfo/img/authinclock.png)
 
 
 
