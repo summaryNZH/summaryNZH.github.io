@@ -39,14 +39,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="192" />
+          <entry key="md" value="272" />
           <entry key="txt" value="10" />
           <entry key="yml" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="192" />
+          <entry key="Markdown" value="272" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="YAML" value="147" />
         </counts>
@@ -64,8 +64,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-01-06-Auto-Inc locks.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="346">
-                <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              <first_editor relative-caret-position="460">
+                <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -196,7 +196,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540699044431" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540699630725" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -232,7 +232,7 @@
       <workItem from="1540692128892" duration="2317000" />
       <workItem from="1540695254732" duration="13000" />
       <workItem from="1540696471156" duration="21000" />
-      <workItem from="1540696528211" duration="2305000" />
+      <workItem from="1540696528211" duration="2795000" />
     </task>
     <task id="LOCAL-00001" summary="fixed">
       <created>1540693515766</created>
@@ -287,10 +287,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4656000" />
+    <option name="totallyTimeSpent" value="5146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -578,8 +579,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2016-01-06-Auto-Inc locks.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="346">
-            <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <first_editor relative-caret-position="460">
+            <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
