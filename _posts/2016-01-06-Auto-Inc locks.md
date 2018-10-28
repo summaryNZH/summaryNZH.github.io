@@ -15,29 +15,29 @@ tags:
 
 ## The types of insert
 
-### 1.1 insert like
+### insert like
 > 任何插入操作只要产生了新的记录都叫insert-like,包括 simple insert and bulk insert and mixed insert.
 ```mysql
 insert，insert ... select，replace, replace ... select, load data
 ```
-### 1.2 simple-insert
+### simple-insert
 > 插入的行数是固定的, 但不包括：insert...on duplicate key update
 ```mysql
 insert into values，replace.
 ```
-### 1.3 bulk-inserts
+### bulk-inserts
 > 插入的行数不能立刻确定
 ```mysql
 insert...select , replace...select, load data
 ```  
-### 1.4 mixed-insert
+### mixed-insert
 > 自增列（auto_increment值不确定）或者 insert on duplicate key update
 ```mysql
 insert ...on duplicate key update;
 INSERT INTO oplog (id, log_id, field, field_desc, old_value, new_value) VALUES (36, null, '室数', '室数', '无', '3'); //log_id（auto_increment）
 ```  
 
-## innodb_autoinc_lock_mode=? parameter
+## innodb_auto_inc_lock_mode 参数
 
 #### 介绍：
 用于插入时自增字段控制加锁的配置。
@@ -45,7 +45,7 @@ INSERT INTO oplog (id, log_id, field, field_desc, old_value, new_value) VALUES (
 它的设置可以达到性能与安全(主从的数据一致性)的平衡
 >比如 配置auto_increment参数的字段，mysql可以保证这个字段在多进程操作时的原子性。就是通过这个innodb_autoinc_lock_mode 的配置来控制保证的类型级别。
 #### 参数配置
-[]()authinclock.png
+[](https://github.com/summaryNZH/Java/blob/master/baseinfo/img/authinclock.png)
 
 
 
