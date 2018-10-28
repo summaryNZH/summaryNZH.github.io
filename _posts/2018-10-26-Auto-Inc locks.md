@@ -10,9 +10,6 @@ tags:
     - mysql
     - lock
 ---
-
-# Mysql Auto-Inc locks
-
 ## The types of insert
 
 ### insert like
