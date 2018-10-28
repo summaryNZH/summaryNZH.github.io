@@ -3,26 +3,26 @@ title: 振航的博客
 SEOTitle: 振航的博客
 header-img: img/post-bg-desk.jpg
 email: ningzhenhang@gmail.com
-description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
+description: "努力再努力努力,加油再加油加油"
+keyword: "BY, 振航, 振航的博客, ningzhenhang, 宁振航, Java, Mysql, Spring"
 url: "http://summaryNZH.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/summaryNZH/summaryNZH.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "有问题就查,不明白的就去学"
 sidebar-avatar: /img/post-bg-desk.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     天可汗
-github_username:    summaryNZH
+# weibo_username:
+#zhihu_username:     天可汗
+#github_username:    summaryNZH
 #facebook_username:  baiying.qiu.7
-jianshu_username:   9a66507c00dc
+#jianshu_username:   9a66507c00dc
 #twitter_username:   qiubaiying
 
 
