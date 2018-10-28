@@ -49,7 +49,7 @@ INSERT INTO oplog (id, log_id, field, field_desc, old_value, new_value) VALUES (
 ### 参数配置
 
 | 类型值       | 简介   |  原理  |   优点 | 缺点
-| :-------:   | :-----:  | :----:  | :----: |:----: | 
+| :-------   | :-----  | :----  | :---- |:---- | 
 | 0       | tradition（传统）   |每次写入操作都会生成 table-level auto-increment lock（以下简写，称为IALML）       | 绝对安全| 写入性能太差|
 | 1(缺省值) |   consecutive（连续）  | bulk-insert的时候，还是会产生IALML，这个锁会在语句结束时释放，而不是一次事物，事物会包含多个语句，产生这个锁的原因，因为这个级别的insert不确定立刻确定插入的行数，因此要加上IALML锁来保证bulk-insert的时候，auto_increment的值不会别的轻量级锁获取。simple-insert的时候，会产生一个轻量锁，获取到auto_increment属性后就释放，如果上一个IALML没释放，会等待。 | 非常安全，性能非常优于=0| 在一些情况下还是会产生表级别的IALML|
 | 2        |    interleaved（交错）  | 当进行bulk insert的时候，不会产生table级别的自增锁，因为它是允许其他insert插入的    | 性能最好，支持并发|SBR下不安全（复制出错不一致）(简单说复制后的sql执行顺序不一致，就会出现问题),一条bulk-insert语句得到的id可能不连续（结合配置为2 的解释很好理解） 1|
